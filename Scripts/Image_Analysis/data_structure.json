@@ -1,0 +1,30 @@
+{
+    "channels": {
+        "BF": {
+            "type": "brightfield",
+            "name": "BF",
+            "scale": 0.725,
+            "bits": 16
+        },
+        "Alexa647": {
+            "type": "fluorescence",
+            "name": "B2M",
+            "scale": 0.725,
+            "bits": 16
+        },
+        "Alexa488": {
+            "type": "fluorescence",
+            "name": "PTPRC",
+            "scale": 0.725,
+            "bits": 16
+        },
+        "DAPI": {
+            "type": "fluorescence",
+            "name": "DAPI",
+            "scale": 0.725,
+            "bits": 16
+        }
+    },
+    "input_dir": "input\/",
+    "output_dir": "output\/"
+}
